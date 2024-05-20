@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoTools.Net", "GeoTools.Net.csproj", "{F2D1D7B1-74F0-4A45-AAF5-87DDB266A3AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoTools.Net.Tests", "..\GeoTools.Net.Tests\GeoTools.Net.Tests.csproj", "{3120C302-F67B-47B9-8513-E79F8ECA3E86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{C7ED5BA9-7C86-4164-969E-A82E056050B7}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\Geotools.html = ..\Geotools.html
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D1D7B1-74F0-4A45-AAF5-87DDB266A3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D1D7B1-74F0-4A45-AAF5-87DDB266A3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D1D7B1-74F0-4A45-AAF5-87DDB266A3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D1D7B1-74F0-4A45-AAF5-87DDB266A3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3120C302-F67B-47B9-8513-E79F8ECA3E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3120C302-F67B-47B9-8513-E79F8ECA3E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3120C302-F67B-47B9-8513-E79F8ECA3E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3120C302-F67B-47B9-8513-E79F8ECA3E86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7BD8754-2132-4814-8523-F8ECC577A30E}
+	EndGlobalSection
+EndGlobal
