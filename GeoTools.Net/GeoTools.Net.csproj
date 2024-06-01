@@ -4,5 +4,31 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<LangVersion>10.0</LangVersion>
+		<PackageId>GeoTools.Net</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Volpe National Transportation Systems Center</Authors>
+		<Company>The U.S. Department of Transportation's Volpe Center</Company>
+		<Description>
+			Calculates the distance between two points on the Earth's surface.
+			Derived work from Java GeoTools 2.3.3a (https://geotools.org) GeodeticCalculator.java.
+
+			Review readme for more information: https://github.com/VolpeUSDOT/GeodeticCalculator/blob/main/README.md
+
+			The U.S. Department of Transportation's Volpe Center advances transportation innovation for the public good.
+		</Description>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="NuGet.Build.Tasks.Pack" Version="6.9.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+		<None Include="..\LICENSE" Pack="true" PackagePath="\"/>
+		<None Include="..\Geotools.html" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 </Project>
