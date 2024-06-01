@@ -11,9 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{C7ED5BA9
 	ProjectSection(SolutionItems) = preProject
 		..\.gitattributes = ..\.gitattributes
 		..\.gitignore = ..\.gitignore
-		..\Geotools.html = ..\Geotools.html
-		..\LICENSE = ..\LICENSE
-		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Global
